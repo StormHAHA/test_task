@@ -1,0 +1,76 @@
+.component_container {
+    display: flex;
+    justify-content: center;
+}
+.sells_table { 
+    margin-top: 200px;
+    border-spacing: 0 12px;
+    table-layout: fixed;
+    & thead tr {
+        background-color: transparent;
+    }
+    & th{
+        color: var(--text-secondary-color);
+        font-weight: 500;
+        padding: 18px 46px 18px 0;
+        text-align: left;
+    }
+    & td {
+        border: none;
+        padding: 18px 46px 18px 0;
+        box-shadow: none;
+        background-color: inherit;
+        
+    }
+
+}
+.service_container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 16px;
+}
+
+.arrow {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.arrow.expanded img {
+  transform: rotate(180deg);
+}
+.extra {
+    color: var(--text-secondary-color);
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+
+
+.row {
+    transition: background-color 0.3s ease;
+    background-color: var(--element-color);
+
+}
+
+.expandedRow {
+    background-color: var(--active-element-color);
+    vertical-align: top;
+
+}
+.expanded_service {
+    padding-left: 12px;
+}
+.paymentIcons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    overflow-wrap: break-word;
+}

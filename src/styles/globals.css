@@ -1,0 +1,15 @@
+body {
+  font-family: var(--font-fam);
+  font-weight: 300;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+:root {
+  --text-color: #fff;
+  --text-secondary-color: #727272;
+  --bg-color: #151515;
+  --element-color: #272727;
+  --active-element-color: #535151;
+  --font-fam: "Source Code Pro", monospace;
+}
